@@ -6,4 +6,10 @@ function theBeatlesPlay(arr1, arr2) {
   return emptyArr;
 }
 
-function 
+function johnLennonFacts(array) {
+  var arr = [];
+  for (let i = 0; i < array.length; i++) {
+    arr.push(array[i] + '!!!');
+  }
+  return arr;
+}
